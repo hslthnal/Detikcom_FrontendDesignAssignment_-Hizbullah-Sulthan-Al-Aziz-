@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(244, 251, 255, 1);
+}
+
+.navbar {
+    background-color: #007CBD;
+    width: 100%;
+    height: Hug (80px);
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 202px;
+    position: fixed;
+}
+
+.navigasi {
+    width: Fill (541px);
+    height: Hug (37px);
+    gap: 30px;
+}
+
+.navigasi ul li {
+    display: inline-block;
+    padding: 25px 60px 0px 0px;
+    width: Fill (541px);
+    height: Hug (37px);
+    gap: 30px;
+    color: white;
+}
+
+.navigasi ul li button {
+    width: Hug (121px);
+    height: Hug (37px);
+    top: 20px;
+    left: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 100px;
+    border: none;
+    gap: 10px;
+    background: white;
+    color: #007CBD;
+}
+
+.banner {
+    background-image: url('assets/hero.png');
+    background-repeat: no-repeat;
+    height: 1440px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-banner {
+    text-align: center;
+    color: white;
+    padding-top: 500px;
+    justify-content: center;
+}
+
+.title-atas {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.title-bawah {
+    font-family: Montserrat;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+}
+
+.carousel-caption {
+    width: Hug (924px);
+    height: Hug (225px);
+    top: 400px;
+    left: 258px;
+    gap: 30px;
+
+}
+
+button {
+    width: Hug (221px);
+    height: Hug (49px);
+    padding: 16px 20px 16px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    border: none;
+    background: rgba(62, 183, 221, 1);
+    color: white;
+}
+
+/* .hero {
+    background: url('assets/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1440px;
+    width: auto;
+} */
+
+/* .headline {
+    width: Hug (924px);
+    height: Hug (225px);
+    top: 400px;
+    left: 258px;
+    gap: 30px;
+} */
+
+.about-section {
+    width: Hug (1, 427px);
+    height: Hug (420.16px);
+    top: 1116px;
+    left: -136px;
+    padding: 100px 200px 100px 200px;
+    gap: 10px;
+}
+
+.about-section h4 {
+    width: 600px;
+    height: 24px;
+    /* font-family: Montserrat; */
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 124, 189, 1);
+    padding-top: 10px;
+}
+
+.about-section p {
+    /* font-family: Montserrat; */
+    font-size: 14px;
+    font-weight: 500;
+    /* line-height: 19px; */
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 30px;
+    width: 650px;
+}
+
+.mekanisme {
+    background-image: url('assets/mekanisme.png');
+    background-repeat: no-repeat;
+    height: 1440px;
+    background-size: cover;
+    background-position: center;
+    /* text-align: center; */
+}
+
+.container {
+    width: 50%;
+    height: auto;
+    /* background-color: #f9f9f9; */
+    /* border-radius: 30px 30px 30px 30px; */
+    /* margin-top: 20px; */
+}
+
+.title-mekanisme {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-align: left;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.card-list {
+    height: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    /* gap: 17px; */
+    background: rgba(255, 255, 255, 1);
+    text-align: left;
+}
+
+.card-list h4 {
+    color: rgba(0, 124, 189, 1);
+    padding-left: 15px;
+}
+
+.jadwal {
+    float: right;
+    color: rgba(0, 124, 189, 1);
+}
+
+.content p {
+    display: inline-block;
+}
+
+.partner {
+    height: auto;
+    text-align: center;
+}
+
+.partner h6 {
+    writing-mode: horizontal-tb;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(0, 124, 189, 1);
+    padding-top: 82px;
+    padding-left: 404.5px;
+    padding-right: 404.5px;
+    padding-bottom: 50px;
+}
+
+.card-slide {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin: 10px;
+}
+
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: flex;
+    place-items: center;
+    width: calc(250px * 30);
+    animation: scroll 30s linear infinite;
+    overflow: hidden;
+}
+
+/* .slide-track {
+    display: flex;
+    width: calc(250px * 24);
+    animation: scroll 30s linear infinite;
+} */
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.partner button {
+    margin: 50px;
+}
+
+.latest {
+    background-color: rgba(244, 251, 255, 1);
+    height: auto;
+    padding-left: 163px;
+    padding-right: 163px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container-latest {
+    height: auto;
+    /* background-color: black; */
+}
+
+.title-latest {
+    padding-top: 56px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(0, 124, 189, 1);
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.grid-menu p {
+    text-align: left;
+}
+
+.cap-latest {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer {
+    width: 100%;
+    height: 244px;
+    top: 4308px;
+    left: -136px;
+    padding: 30px 49px 30px 49px;
+    background-color: rgba(0, 124, 189, 1);
+}
+
+.card-footer {
+    padding: 10px;
+    /* background-color: white; */
+}
+
+.footer img {
+    padding-bottom: 20px;
+}
+
+.footer p {
+    width: 754px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer hr {
+    border: 1px solid;
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+/* .card-footer ul li{
+    display: inline-block;
+    float: right;
+} */
+
+.kontak{
+    float: right;
+}
